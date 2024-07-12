@@ -1,36 +1,66 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Job Search and Details Application
+
+This is a Next.js application that allows users to search for jobs and view job details from a dataset. The project utilizes server-side rendering (SSR) for efficient page loads and includes functionalities for job searching and viewing detailed job information.
+
+## Features
+
+- **Job Search**: Users can search for jobs by job title.
+- **Job Details**: Detailed information for each job, including company details, job location, and remote work options.
+- **Server-Side Rendering**: Utilizes Next.js for SSR, ensuring fast initial page loads and SEO benefits.
+- **Responsive Design**: Designed to be responsive and accessible across various devices.
+- **Filtering**: Filter jobs based on criteria such as remote work availability or location.
+- **Link Integration**: Direct links to job postings on LinkedIn for easy application.
+
+## Technologies Used
+
+- **Next.js**: React framework for SSR and client-side rendering.
+- **React**: JavaScript library for building user interfaces.
+- **JSON Data**: Dataset containing job information.
+- **CSS**: Custom styles for layout and design.
 
 ## Getting Started
 
-First, run the development server:
+Follow these steps to get the project up and running on your local machine:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+1. **Clone the repository**:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+   ```bash
+   git clone <repository-url>
+   cd job-search-app
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+   ```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+2. **Instal dependencies
+    ```bash
+        npm install 
+     # or
+        yarn install    
 
-## Learn More
+    ```
 
-To learn more about Next.js, take a look at the following resources:
+3. **Update your X_RAPID_API_KEY in .env file
+    ```bash
+        X_RAPID_API_KEY =     
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+    ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+4. **Run the development server:
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+    ```bash
+      npm run dev
+    # or
+    yarn dev  
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+    ```
+
+
+### Usage
+
+- Enter a job title in the search bar to search for specific jobs.
+- Click on a job title to view detailed information about the job.
+- Navigate back to the search results or homepage as needed.
+
+
+### Contributing
+Contributions are welcome! Please fork the repository and create a pull request with your improvements.
